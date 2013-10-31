@@ -1,0 +1,10 @@
+<Application x:Class="WinRTGridViewDataTemplateTechniques.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:WinRTGridViewDataTemplateTechniques" xmlns:localData="using:WinRTGridViewDataTemplateTechniques.Data"
+             xmlns:common="using:WinRTGridViewDataTemplateTechniques.Common"
+             RequestedTheme="Light">
+  <Application.Resources>
+    <!-- Application-specific resources -->
+    <x:String x:Key="AppName">GridView DataTemplate Techniques</x:String>
+    <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:WinRTGridViewDataTemplateTechniques.ViewModel" />
+        <common:BooleanToVisibilityConverter x:Name="BooleanToVisibilityConverter" />
+    </Application.Resources>
+</Application>
